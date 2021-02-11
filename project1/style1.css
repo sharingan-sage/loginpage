@@ -1,0 +1,67 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman';
+    background-image: url("cover15.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.cl1{
+    text-align:center;
+    width:300px;
+    padding:30px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    background-color:#333333;
+    opacity: 0.8;
+}
+#id1 ,#id2 ,#id4{
+    text-align:center;
+    background:none;
+    display:block;
+    margin:20px auto;
+    border:3px solid #ffffff;
+    padding: 14px 10px;
+    width:220px;
+    outline:none;
+    color:yellow;
+    border-radius: 20px;
+    transition: 0.25;
+    opacity: 1;
+
+}
+#id1:focus ,#id2:focus ,#id4:focus{
+    width:270px;
+    border-color:#ffc400;
+}
+#id3{
+    text-align:center;
+    background:none;
+    display:block;
+    margin:20px auto;
+    border:3px solid #ffc400;
+    padding: 14px 10px;
+    outline:none;
+    color:#ffffff;
+    border-radius: 20px;
+    transition: 0.25;
+    cursor:pointer;
+
+}
+#id3:hover{
+    background: #ffc400;
+}
+#id3:active{
+    transform: scale(0.96);
+}
+.cl2{
+    text-decoration: none;
+    cursor:pointer;
+}
+.cl2 a:hover{
+    text-decoration: underline;
+    color:hsl(39, 100%, 50%);
+}
